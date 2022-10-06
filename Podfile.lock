@@ -1,0 +1,20 @@
+PODS:
+  - HaishinKit (1.3.0):
+    - Logboard (~> 2.3.0)
+  - Logboard (2.3.0)
+
+DEPENDENCIES:
+  - HaishinKit (~> 1.3.0)
+
+SPEC REPOS:
+  trunk:
+    - HaishinKit
+    - Logboard
+
+SPEC CHECKSUMS:
+  HaishinKit: 013229683accc4abe46630b04629da3ff90428b7
+  Logboard: f3a37d2a4040b82b7e2eb39765897e2c9c5ec024
+
+PODFILE CHECKSUM: 96da9c706a2e5d2cbe7b9ad8352a567b540d5a78
+
+COCOAPODS: 1.11.3
