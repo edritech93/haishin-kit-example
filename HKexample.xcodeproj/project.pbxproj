@@ -21,6 +21,7 @@
 		D478E71528EEB7680040C8AE /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D478E70E28EEB7680040C8AE /* LiveViewController.swift */; };
 		D478E71628EEB7680040C8AE /* PlaybackContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D478E70F28EEB7680040C8AE /* PlaybackContainerViewController.swift */; };
 		D478E71728EEB7680040C8AE /* Preference.swift in Sources */ = {isa = PBXBuildFile; fileRef = D478E71028EEB7680040C8AE /* Preference.swift */; };
+		D4F05A4528EEBDE400F044A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F05A4428EEBDE400F044A1 /* LaunchScreen.storyboard */; };
 		EBA39CAF322D07549F49A4ED /* Pods_HKexample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910C7204FDB191726244058F /* Pods_HKexample.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		D478E70E28EEB7680040C8AE /* LiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
 		D478E70F28EEB7680040C8AE /* PlaybackContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaybackContainerViewController.swift; sourceTree = "<group>"; };
 		D478E71028EEB7680040C8AE /* Preference.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preference.swift; sourceTree = "<group>"; };
+		D4F05A4428EEBDE400F044A1 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8AA048C41AC273A3517DA00 /* Pods-HKexample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HKexample.debug.xcconfig"; path = "Target Support Files/Pods-HKexample/Pods-HKexample.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 				D478E6DA28EEB2C10040C8AE /* AppDelegate.swift */,
 				D478E6E328EEB2C20040C8AE /* Assets.xcassets */,
 				D478E6E828EEB2C20040C8AE /* Info.plist */,
+				D4F05A4428EEBDE400F044A1 /* LaunchScreen.storyboard */,
 			);
 			path = HKexample;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4F05A4528EEBDE400F044A1 /* LaunchScreen.storyboard in Resources */,
 				D478E6E428EEB2C20040C8AE /* Assets.xcassets in Resources */,
 				D478E71228EEB7680040C8AE /* Main.storyboard in Resources */,
 			);
@@ -582,11 +586,15 @@
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HKexample/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera for streaming";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone for streaming";
+				INFOPLIST_KEY_CFBundleDisplayName = HaishinKit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -613,11 +621,15 @@
 				DEVELOPMENT_TEAM = 77MH7DAV5Q;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HKexample/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "Camera for streaming";
-				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone for streaming";
+				INFOPLIST_KEY_CFBundleDisplayName = HaishinKit;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
